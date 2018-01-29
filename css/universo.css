@@ -1,0 +1,217 @@
+body {
+    background-color: black;
+}
+
+header {
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 2%;
+}
+
+header div {
+    display: inline-block;
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 2%;
+}
+
+.opciones p {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(239, 210, 11, 1);
+    border: none;
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.opciones p:hover {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(239, 210, 11, 1);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgba(239, 210, 11, 1);
+}
+
+h2 {
+    font-family: 'PT Serif', serif;
+    color: rgba(239, 210, 11, 1);
+    text-align: center;
+}
+
+section div {
+    display: inline-block;
+    position: relative;
+    margin-left:2%;
+    margin-bottom:10px;
+}
+
+section p  {
+    color: white;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    margin-top:150px;
+    font-size:35px;
+    opacity:0;
+    transition:0.8s;
+}
+
+.bandle {
+    background-image: url(../img/univ/bandle.jpg);
+    height: 332px;
+    width: 640px;
+    background-size: cover;
+    transition:0.8s;
+    border-radius:5px;
+}
+.bandle:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+
+.demacia {
+    background-image: url(../img/univ/demacia.png);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.demacia:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+
+.freljord {
+    background-image: url(../img/univ/freljord.jpg);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.freljord:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+
+.isla {
+    background-image: url(../img/univ/isla.jpg);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.isla:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+.jonia {
+    background-image: url(../img/univ/jonia.jpg);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.jonia:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+.noxus {
+    background-image: url(../img/univ/noxus.png);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.noxus:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+.piltover {
+    background-image: url(../img/univ/piltover.png);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.piltover:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+
+.shurima {
+    background-image: url(../img/univ/shurima.png);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.shurima:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+.targon {
+    background-image: url(../img/univ/targon.jpg);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.targon:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+.void {
+    background-image: url(../img/univ/void.png);
+    height: 332px;
+    width: 640px;
+    background-size: cover;
+    transition:0.8s;
+    border-radius:5px;
+}
+.void:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+.water {
+    background-image: url(../img/univ/water.jpg);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.water:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+.zaun {
+    background-image: url(../img/univ/zaun.png);
+    height: 332px;
+    width: 640px;
+    background-repeat: no-repeat;
+    transition:0.8s;
+    border-radius:5px;
+}
+.zaun:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
+    cursor:pointer;
+}
+section div:hover p{
+    opacity:1;
+}
