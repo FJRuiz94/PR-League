@@ -1,3 +1,5 @@
+/*Header*/
+
 body {
     background-color: black;
 }
@@ -41,6 +43,8 @@ a:visited {
     color: rgba(239, 210, 11, 1);
 }
 
+/* Fin Header*/
+
 h2 {
     font-family: 'PT Serif', serif;
     color: rgba(239, 210, 11, 1);
@@ -50,18 +54,22 @@ h2 {
 section div {
     display: inline-block;
     position: relative;
-    margin-left:2%;
-    margin-bottom:10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
 }
 
-section p  {
+section div:hover p {
+    opacity: 1;
+}
+
+section p {
     color: white;
     font-family: 'PT Serif', serif;
     text-align: center;
-    margin-top:150px;
-    font-size:35px;
-    opacity:0;
-    transition:0.8s;
+    margin-top: 150px;
+    font-size: 35px;
+    opacity: 0;
+    transition: 0.8s;
 }
 
 .bandle {
@@ -69,12 +77,13 @@ section p  {
     height: 332px;
     width: 640px;
     background-size: cover;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.bandle:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.bandle:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 .demacia {
@@ -82,12 +91,13 @@ section p  {
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.demacia:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.demacia:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 .freljord {
@@ -95,12 +105,13 @@ section p  {
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.freljord:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.freljord:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 .isla {
@@ -108,48 +119,55 @@ section p  {
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.isla:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.isla:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
+
 .jonia {
     background-image: url(../img/univ/jonia.jpg);
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.jonia:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.jonia:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
+
 .noxus {
     background-image: url(../img/univ/noxus.png);
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.noxus:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.noxus:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
+
 .piltover {
     background-image: url(../img/univ/piltover.png);
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.piltover:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.piltover:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
 
 .shurima {
@@ -157,61 +175,67 @@ section p  {
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.shurima:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.shurima:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
+
 .targon {
     background-image: url(../img/univ/targon.jpg);
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.targon:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.targon:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
+
 .void {
     background-image: url(../img/univ/void.png);
     height: 332px;
     width: 640px;
     background-size: cover;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.void:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.void:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
+
 .water {
     background-image: url(../img/univ/water.jpg);
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.water:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
+
+.water:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
+
 .zaun {
     background-image: url(../img/univ/zaun.png);
     height: 332px;
     width: 640px;
     background-repeat: no-repeat;
-    transition:0.8s;
-    border-radius:5px;
+    transition: 0.8s;
+    border-radius: 5px;
 }
-.zaun:hover{
-    box-shadow: inset 3px 6px 300px 41px rgba(0,0,0,0.75);
-    cursor:pointer;
-}
-section div:hover p{
-    opacity:1;
+
+.zaun:hover {
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
 }
