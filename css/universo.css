@@ -1,36 +1,41 @@
-/*Header*/
-
 body {
     background-color: black;
 }
 
+/* Header */
+
 header {
     height: 20vh;
     background-color: rgba(255, 255, 255, 0.1);
-    margin-left: 2%;
+    margin-left: 20px;
 }
 
 header div {
     display: inline-block;
     position: absolute;
-    margin-top: 3.5%;
-    margin-left: 2%;
+    margin-top: 35px;
+    margin-left: 20px;
 }
 
 .opciones p {
-    background-color: rgba(255, 255, 255, 0);
     color: rgba(239, 210, 11, 1);
     border: none;
     font-family: 'PT Serif', serif;
     display: inline-block;
-    padding-right: 20px;
+    transition: 0.3s;
+    margin-right:10px;
 }
 
 .opciones p:hover {
     color: white;
     transition: 0.3s;
     cursor: pointer;
-    background-color: black;
+}
+
+p a:hover {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 a:link {
@@ -43,7 +48,9 @@ a:visited {
     color: rgba(239, 210, 11, 1);
 }
 
-/* Fin Header*/
+/* Fin Header */
+
+/* Título antes de DIVS */
 
 h2 {
     font-family: 'PT Serif', serif;
@@ -51,11 +58,16 @@ h2 {
     text-align: center;
 }
 
+/* Fin Título */
+
+/* Comienzo Regiones */
+
 section div {
     display: inline-block;
     position: relative;
-    margin-left: 2%;
+    margin-left: 50px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 section div:hover p {
@@ -75,7 +87,7 @@ section p {
 .bandle {
     background-image: url(../img/univ/bandle.jpg);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-size: cover;
     transition: 0.8s;
     border-radius: 5px;
@@ -89,7 +101,7 @@ section p {
 .demacia {
     background-image: url(../img/univ/demacia.png);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -103,7 +115,7 @@ section p {
 .freljord {
     background-image: url(../img/univ/freljord.jpg);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -117,7 +129,7 @@ section p {
 .isla {
     background-image: url(../img/univ/isla.jpg);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -131,7 +143,7 @@ section p {
 .jonia {
     background-image: url(../img/univ/jonia.jpg);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -145,7 +157,7 @@ section p {
 .noxus {
     background-image: url(../img/univ/noxus.png);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -159,7 +171,7 @@ section p {
 .piltover {
     background-image: url(../img/univ/piltover.png);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -173,7 +185,7 @@ section p {
 .shurima {
     background-image: url(../img/univ/shurima.png);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -187,7 +199,7 @@ section p {
 .targon {
     background-image: url(../img/univ/targon.jpg);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -201,7 +213,7 @@ section p {
 .void {
     background-image: url(../img/univ/void.png);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-size: cover;
     transition: 0.8s;
     border-radius: 5px;
@@ -215,7 +227,7 @@ section p {
 .water {
     background-image: url(../img/univ/water.jpg);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -229,7 +241,7 @@ section p {
 .zaun {
     background-image: url(../img/univ/zaun.png);
     height: 332px;
-    width: 640px;
+    width: 580px;
     background-repeat: no-repeat;
     transition: 0.8s;
     border-radius: 5px;
@@ -239,3 +251,46 @@ section p {
     box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
     cursor: pointer;
 }
+
+/* Fin Regiones */
+
+/* Footer */
+
+footer {
+    background-color: black;
+    height: 15vh;
+    margin-top: 15px;
+}
+
+i {
+    color: white;
+    margin-left: 50px;
+}
+
+.redes {
+    height: 10vh;
+    width: 20vw;
+
+}
+
+.redes p {
+    color: white;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+footer div {
+    display: inline-block;
+}
+
+.copy p {
+    color: white;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+
+/* Fin Footer */

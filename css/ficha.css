@@ -1,11 +1,14 @@
 /*Header*/
+
 body {
     background-color: black;
 }
 
+/*Header*/
+
 header {
     height: 20vh;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     margin-left: 2%;
 }
 
@@ -17,19 +20,24 @@ header div {
 }
 
 .opciones p {
-    background-color: rgba(255, 255, 255, 0);
     color: rgba(239, 210, 11, 1);
     border: none;
     font-family: 'PT Serif', serif;
     display: inline-block;
-    padding-right: 20px;
+    transition: 0.3s;
+    margin-right:10px;
 }
 
 .opciones p:hover {
     color: white;
     transition: 0.3s;
     cursor: pointer;
-    background-color: black;
+}
+
+p a:hover {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 a:link {
@@ -41,4 +49,25 @@ a:visited {
     text-decoration: none;
     color: rgba(239, 210, 11, 1);
 }
+
 /* Fin Header*/
+
+/* Cabecera */
+article div img{
+    height: 332px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+article div{
+    height: 430px;
+    width: 700px;
+    margin-top:30px;
+    margin-left:300px;
+}
+
+h2{
+    color:goldenrod;
+    text-align:center;
+    font-size:30px;
+}
