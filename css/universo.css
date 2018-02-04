@@ -276,7 +276,7 @@ i {
 .redes p {
     color: white;
     text-align: center;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Source Serif Pro', serif;
 }
 
 i:hover {
@@ -290,7 +290,8 @@ footer div {
 .copy p {
     color: white;
     text-align: center;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size:15px;
 }
 
 /* Fin Footer */

@@ -22,10 +22,10 @@ header div {
 .opciones p {
     color: rgba(239, 210, 11, 1);
     border: none;
-    font-family: 'PT Serif', serif;
+    font-family: 'Source Serif Pro', serif;
     display: inline-block;
     transition: 0.3s;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 .opciones p:hover {
@@ -53,21 +53,73 @@ a:visited {
 /* Fin Header*/
 
 /* Cabecera */
-article div img{
+
+article .foto img {
     height: 332px;
     width: 700px;
     border-radius: 5px;
 }
 
-article div{
+article .foto {
     height: 430px;
     width: 700px;
-    margin-top:30px;
-    margin-left:300px;
+    margin-top: 30px;
+    margin-left: 300px;
 }
 
-h2{
-    color:goldenrod;
-    text-align:center;
-    font-size:30px;
+/* Texto descripción cabecera */
+
+h2 {
+    color: goldenrod;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Serif Pro', serif;
 }
+
+.texto {
+    height: 250px;
+    width: 800px;
+    position: relative;
+    margin-left: 250px;
+}
+
+.texto p {
+    color: goldenrod;
+    text-indent: 20px;
+    line-height: 25px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+span {
+    font-size: 40px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+}
+
+h3{
+    color: goldenrod;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.slider img {
+    height: 430px;
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 7px;
+    background-color:(0,0,0,0);
+}
+
+.bx-wrapper {
+    width: 800px;
+    margin-left: 400px;
+    margin: auto;
+}
+
+.bx-caption {
+    z-index: 1;
+    background-color: black;
+    color: white;
+}
+

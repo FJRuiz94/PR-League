@@ -25,7 +25,7 @@ header div {
 .opciones p {
     color: rgba(239, 210, 11, 1);
     border: none;
-    font-family: 'PT Serif', serif;
+    font-family: 'Source Serif Pro', serif;
     display: inline-block;
     transition: 0.3s;
     margin-right:10px;
@@ -77,9 +77,9 @@ article {
 
 h2 {
     color: rgba(239, 210, 11, 1);
-    font-family: 'Crimson Text', serif;
+    font-family: 'Source Serif Pro', serif;
     position: absolute;
-    right: 15%;
+    right: 120px;
     font-size: 30px;
 }
 
@@ -92,7 +92,7 @@ h2 {
 }
 
 .interior p {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Source Serif Pro', serif;
     color: rgba(239, 210, 11, 1);
     font-size: 23px;
 }
@@ -154,7 +154,7 @@ div > a {
 
 footer {
     background-color: black;
-    height: 15vh;
+    height: 110px;
     margin-top: 15px;
 }
 
@@ -172,7 +172,7 @@ i {
 .redes p {
     color: white;
     text-align: center;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Source Serif Pro', serif;
 }
 
 i:hover {
@@ -186,7 +186,8 @@ footer div {
 .copy p {
     color: white;
     text-align: center;
-    font-family: 'Crimson Text', serif;
+    font-family: 'Source Serif Pro', serif;
+    font-size:15px;
 }
 
 /* Fin Footer*/
