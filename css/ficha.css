@@ -4,7 +4,6 @@ body {
     background-color: black;
 }
 
-/*Header*/
 
 header {
     height: 20vh;
@@ -81,6 +80,8 @@ h2 {
     width: 800px;
     position: relative;
     margin-left: 250px;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 .texto p {
@@ -122,4 +123,46 @@ h3{
     background-color: black;
     color: white;
 }
+/* Footer */
 
+footer {
+    background-color: black;
+    height: 110px;
+    margin-top: 15px;
+    position:relative;
+    padding-top:100px;
+}
+
+i {
+    color: white;
+    margin-left: 20px;
+}
+
+.redes {
+    height: 10vh;
+    width: 20vw;
+
+}
+
+.redes p {
+    color: white;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+footer div {
+    display: inline-block;
+}
+
+.copy p {
+    color: white;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    font-size:15px;
+}
+
+/* Fin Footer*/
