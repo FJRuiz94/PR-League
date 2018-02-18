@@ -1,0 +1,79 @@
+body {
+    background: url(../img/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+/* HEADER*/
+
+header {
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+}
+
+header div {
+    display: inline-block;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.opciones p {
+    color: rgba(239, 210, 11, 1);
+    border: none;
+    font-family: 'Source Serif Pro', serif;
+    display: inline-block;
+    transition: 0.3s;
+    margin-right:10px;
+}
+
+.opciones p:hover {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.opciones p a:hover {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(239, 210, 11, 1);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgba(239, 210, 11, 1);
+}
+
+/* FIN HEADER*/
+
+/* CABECERA */
+.cabecera{
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position:relative;
+    margin-top:15px;
+}
+
+.cabecera p{
+    font-family: 'Source Serif Pro', serif;
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+    color:rgba(239, 210, 11, 1);
+    margin-top:15px;
+    position: absolute;
+    margin-left:45%;
+}
+
+/* FIN CABECERA */
+
