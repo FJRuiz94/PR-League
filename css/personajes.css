@@ -5,7 +5,7 @@ body {
     background-color: black;
     background-attachment: fixed;
     background-size: 100% 100%;
-    
+    padding-bottom:100px;
 }
 
 /* HEADER*/
@@ -29,7 +29,7 @@ header div {
     font-family: 'Source Serif Pro', serif;
     display: inline-block;
     transition: 0.3s;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 .opciones p:hover {
@@ -57,23 +57,1727 @@ a:visited {
 /* FIN HEADER*/
 
 /* CABECERA */
-.cabecera{
+
+.cabecera {
     height: 50px;
     background-color: rgba(0, 0, 0, 0.5);
-    position:relative;
-    margin-top:15px;
+    position: relative;
+    margin-top: 15px;
 }
 
-.cabecera p{
+.cabecera p {
     font-family: 'Source Serif Pro', serif;
-    text-align:center;
-    font-size:25px;
-    font-weight:bold;
-    color:rgba(239, 210, 11, 1);
-    margin-top:15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(239, 210, 11, 1);
+    margin-top: 15px;
     position: absolute;
-    margin-left:45%;
+    margin-left: 45%;
 }
 
 /* FIN CABECERA */
 
+/* DIVs de cada campeón */
+
+.campeones div {
+    display: inline-block;
+    margin-left: 60px;
+    margin-top:20px;
+    border-radius: 3px;
+    position:relative;
+}
+
+.campeones div p{
+    color: white;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 18px;
+    margin-top:40px;
+    opacity: 0;
+    transition: 0.6s;
+    font-weight: bold;
+}
+
+section div:hover p {
+    opacity: 1;
+}
+
+.aatrox {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Aatrox_0.jpg);
+    transition: 0.6s;
+}
+
+.aatrox:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.ahri {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Ahri_0.jpg);
+    transition: 0.6s;
+}
+
+.ahri:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.akali {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Akali_0.jpg);
+    transition: 0.6s;
+}
+
+.akali:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.alistar {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Alistar_0.jpg);
+    transition: 0.6s;
+}
+
+.alistar:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.amumu {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Amumu_0.jpg);
+    transition: 0.6s;
+}
+
+.amumu:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.anivia {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Anivia_0.jpg);
+    transition: 0.6s;
+}
+
+.anivia:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.annie {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Annie_0.jpg);
+    transition: 0.6s;
+}
+
+.annie:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.ashe {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Ashe_0.jpg);
+    transition: 0.6s;
+}
+
+.ashe:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.aurelion {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/AurelionSol_0.jpg);
+    transition: 0.6s;
+}
+
+.aurelion:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.azir {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Azir_0.jpg);
+    transition: 0.6s;
+}
+
+.azir:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.bardo {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Bard_0.jpg);
+    transition: 0.6s;
+}
+
+.bardo:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.blitz {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Blitzcrank_0.jpg);
+    transition: 0.6s;
+}
+
+.blitz:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.brand {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Brand_0.jpg);
+    transition: 0.6s;
+}
+
+.brand:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.braum {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Braum_0.jpg);
+    transition: 0.6s;
+}
+
+.braum:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.caitlyn {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Caitlyn_0.jpg);
+    transition: 0.6s;
+}
+
+.caitlyn:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.camille {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Camille_0.jpg);
+    transition: 0.6s;
+}
+
+.camille:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.cassio {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Cassiopeia_0.jpg);
+    transition: 0.6s;
+}
+
+.cassio:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.chogath {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Chogath_0.jpg);
+    transition: 0.6s;
+}
+
+.chogath:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.corki {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Corki_0.jpg);
+    transition: 0.6s;
+}
+
+.corki:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.darius {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Darius_0.jpg);
+    transition: 0.6s;
+}
+
+.darius:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.diana {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Diana_0.jpg);
+    transition: 0.6s;
+}
+
+.diana:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.draven {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Draven_0.jpg);
+    transition: 0.6s;
+}
+
+.draven:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.mundo {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/DrMundo_0.jpg);
+    transition: 0.6s;
+}
+
+.mundo:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.ekko {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Ekko_0.jpg);
+    transition: 0.6s;
+}
+
+.ekko:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.elise {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Elise_0.jpg);
+    transition: 0.6s;
+}
+
+.elise:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.evelynn {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Evelynn_0.jpg);
+    transition: 0.6s;
+}
+
+.evelynn:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.ezreal {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Ezreal_0.jpg);
+    transition: 0.6s;
+}
+
+.ezreal:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.fiddlesticks {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Fiddlesticks_0.jpg);
+    transition: 0.6s;
+}
+
+.fiddlesticks:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.fiora {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Fiora_0.jpg);
+    transition: 0.6s;
+}
+
+.fiora:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.fizz {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Fizz_0.jpg);
+    transition: 0.6s;
+}
+
+.fizz:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.galio {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Galio_0.jpg);
+    transition: 0.6s;
+}
+
+.galio:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.gangplank {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Gangplank_0.jpg);
+    transition: 0.6s;
+}
+
+.gangplank:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.garen {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Garen_0.jpg);
+    transition: 0.6s;
+}
+
+.garen:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.gnar {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Gnar_0.jpg);
+    transition: 0.6s;
+}
+
+.gnar:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.gragas {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Gragas_0.jpg);
+    transition: 0.6s;
+}
+
+.gragas:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.graves {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Graves_0.jpg);
+    transition: 0.6s;
+}
+
+.graves:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.hecarim {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Hecarim_0.jpg);
+    transition: 0.6s;
+}
+
+.hecarim:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.heimer {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Heimerdinger_0.jpg);
+    transition: 0.6s;
+}
+
+.heimer:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.illaoi {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Illaoi_0.jpg);
+    transition: 0.6s;
+}
+
+.illaoi:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.irelia {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Irelia_0.jpg);
+    transition: 0.6s;
+}
+
+.irelia:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.ivern {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Ivern_0.jpg);
+    transition: 0.6s;
+}
+
+.ivern:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.janna {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Janna_0.jpg);
+    transition: 0.6s;
+}
+
+.janna:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.jarvan {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/JarvanIV_0.jpg);
+    transition: 0.6s;
+}
+
+.jarvan:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.jax {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Jax_0.jpg);
+    transition: 0.6s;
+}
+
+.jax:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.jayce {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Jayce_0.jpg);
+    transition: 0.6s;
+}
+
+.jayce:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.jhin {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Jhin_0.jpg);
+    transition: 0.6s;
+}
+
+.jhin:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.jinx {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Jinx_0.jpg);
+    transition: 0.6s;
+}
+
+.jinx:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.kaisa {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Kaisa_0.jpg);
+    transition: 0.6s;
+}
+
+.kaisa:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.kalista {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Kalista_0.jpg);
+    transition: 0.6s;
+}
+
+.kalista:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.karma {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Karma_0.jpg);
+    transition: 0.6s;
+}
+
+.karma:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.karthus {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Karthus_0.jpg);
+    transition: 0.6s;
+}
+
+.karthus:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.kassadin {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Kassadin_0.jpg);
+    transition: 0.6s;
+}
+
+.kassadin:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.katarina {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Katarina_0.jpg);
+    transition: 0.6s;
+}
+
+.katarina:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.kayle {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Kayle_0.jpg);
+    transition: 0.6s;
+}
+
+.kayle:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.kayn {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Kayn_0.jpg);
+    transition: 0.6s;
+}
+
+.kayn:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.kennen {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Kennen_0.jpg);
+    transition: 0.6s;
+}
+
+.kennen:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.khazix {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Khazix_0.jpg);
+    transition: 0.6s;
+}
+
+.khazix:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.kindred {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Kindred_0.jpg);
+    transition: 0.6s;
+}
+
+.kindred:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.kled {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Kled_0.jpg);
+    transition: 0.6s;
+}
+
+.kled:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.kogmaw {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/KogMaw_0.jpg);
+    transition: 0.6s;
+}
+
+.kogmaw:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.leblanc {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Leblanc_0.jpg);
+    transition: 0.6s;
+}
+
+.leblanc:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.leesin {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/LeeSin_0.jpg);
+    transition: 0.6s;
+}
+
+.leesin:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.leona {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Leona_0.jpg);
+    transition: 0.6s;
+}
+
+.leona:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.lissandra {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Lissandra_0.jpg);
+    transition: 0.6s;
+}
+
+.lissandra:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.lucian {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Lucian_0.jpg);
+    transition: 0.6s;
+}
+
+.lucian:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.lulu {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Lulu_0.jpg);
+    transition: 0.6s;
+}
+
+.lulu:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.lux {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Lux_0.jpg);
+    transition: 0.6s;
+}
+
+.lux:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.malphite {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Malphite_0.jpg);
+    transition: 0.6s;
+}
+
+.malphite:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.malzahar {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Malzahar_0.jpg);
+    transition: 0.6s;
+}
+
+.malzahar:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.maokai {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Maokai_0.jpg);
+    transition: 0.6s;
+}
+
+.maokai:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.masteryi {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/MasterYi_0.jpg);
+    transition: 0.6s;
+}
+
+.masteryi:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.missfortune {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/MissFortune_0.jpg);
+    transition: 0.6s;
+}
+
+.missfortune:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.wukong {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/MonkeyKing_0.jpg);
+    transition: 0.6s;
+}
+
+.wukong:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.mordekaiser {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Mordekaiser_0.jpg);
+    transition: 0.6s;
+}
+
+.mordekaiser:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.morgana {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Morgana_0.jpg);
+    transition: 0.6s;
+}
+
+.morgana:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.nami {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Nami_0.jpg);
+    transition: 0.6s;
+}
+
+.nami:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.nasus {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Nasus_0.jpg);
+    transition: 0.6s;
+}
+
+.nasus:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.nautilus {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Nautilus_0.jpg);
+    transition: 0.6s;
+}
+
+.nautilus:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.nidalee {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Nidalee_0.jpg);
+    transition: 0.6s;
+}
+
+.nidalee:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.nocturne {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Nocturne_0.jpg);
+    transition: 0.6s;
+}
+
+.nocturne:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.nunu {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Nunu_0.jpg);
+    transition: 0.6s;
+}
+
+.nunu:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.olaf {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Olaf_0.jpg);
+    transition: 0.6s;
+}
+
+.olaf:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.orianna {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Orianna_0.jpg);
+    transition: 0.6s;
+}
+
+.orianna:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.ornn {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Ornn_0.jpg);
+    transition: 0.6s;
+}
+
+.ornn:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.pantheon {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Pantheon_0.jpg);
+    transition: 0.6s;
+}
+
+.pantheon:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.poppy {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Poppy_0.jpg);
+    transition: 0.6s;
+}
+
+.poppy:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.quinn {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Quinn_0.jpg);
+    transition: 0.6s;
+}
+
+.quinn:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.rakan {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Rakan_0.jpg);
+    transition: 0.6s;
+}
+
+.rakan:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.rammus {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Rammus_0.jpg);
+    transition: 0.6s;
+}
+
+.rammus:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.reksai {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/RekSai_0.jpg);
+    transition: 0.6s;
+}
+
+.reksai:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.renekton {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Renekton_0.jpg);
+    transition: 0.6s;
+}
+
+.renekton:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.rengar {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Rengar_0.jpg);
+    transition: 0.6s;
+}
+
+.rengar:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.riven {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Riven_0.jpg);
+    transition: 0.6s;
+}
+
+.riven:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.rumble {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Rumble_0.jpg);
+    transition: 0.6s;
+}
+
+.rumble:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.ryze {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Ryze_0.jpg);
+    transition: 0.6s;
+}
+
+.ryze:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.sejuani {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Sejuani_0.jpg);
+    transition: 0.6s;
+}
+
+.sejuani:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.shaco {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Shaco_0.jpg);
+    transition: 0.6s;
+}
+
+.shaco:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.shen {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Shen_0.jpg);
+    transition: 0.6s;
+}
+
+.shen:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.shyvana {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Shyvana_0.jpg);
+    transition: 0.6s;
+}
+
+.shyvana:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.singed {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Singed_0.jpg);
+    transition: 0.6s;
+}
+
+.singed:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.sion {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Sion_0.jpg);
+    transition: 0.6s;
+}
+
+.sion:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.sivir {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Sivir_0.jpg);
+    transition: 0.6s;
+}
+
+.sivir:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.skarner {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Skarner_0.jpg);
+    transition: 0.6s;
+}
+
+.skarner:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.sona {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Sona_0.jpg);
+    transition: 0.6s;
+}
+
+.sona:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.soraka {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Soraka_0.jpg);
+    transition: 0.6s;
+}
+
+.soraka:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.swain {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Swain_0.jpg);
+    transition: 0.6s;
+}
+
+.swain:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.syndra {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Syndra_0.jpg);
+    transition: 0.6s;
+}
+
+.syndra:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.tahmkench {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/TahmKench_0.jpg);
+    transition: 0.6s;
+}
+
+.tahmkench:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.taliyah {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Taliyah_0.jpg);
+    transition: 0.6s;
+}
+
+.taliyah:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.talon {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Talon_0.jpg);
+    transition: 0.6s;
+}
+
+.talon:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.taric {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Taric_0.jpg);
+    transition: 0.6s;
+}
+
+.taric:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.teemo {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Teemo_0.jpg);
+    transition: 0.6s;
+}
+
+.teemo:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.thresh {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Thresh_0.jpg);
+    transition: 0.6s;
+}
+
+.thresh:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.tristana {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Tristana_0.jpg);
+    transition: 0.6s;
+}
+
+.tristana:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.trundle {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Trundle_0.jpg);
+    transition: 0.6s;
+}
+
+.trundle:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.tryndamere {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Tryndamere_0.jpg);
+    transition: 0.6s;
+}
+
+.tryndamere:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.twistedfate {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/TwistedFate_0.jpg);
+    transition: 0.6s;
+}
+
+.twistedfate:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.twitch {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Twitch_0.jpg);
+    transition: 0.6s;
+}
+
+.twitch:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.udyr {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Udyr_0.jpg);
+    transition: 0.6s;
+}
+
+.udyr:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.urgot {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Urgot_0.jpg);
+    transition: 0.6s;
+}
+
+.urgot:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.varus {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Varus_0.jpg);
+    transition: 0.6s;
+}
+
+.varus:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.vayne {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Vayne_0.jpg);
+    transition: 0.6s;
+}
+
+.vayne:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.veigar {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Veigar_0.jpg);
+    transition: 0.6s;
+}
+
+.veigar:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.velkoz {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Velkoz_0.jpg);
+    transition: 0.6s;
+}
+
+.velkoz:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.vi {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Vi_0.jpg);
+    transition: 0.6s;
+}
+
+.vi:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.viktor {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Viktor_0.jpg);
+    transition: 0.6s;
+}
+
+.viktor:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.vladimir {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Vladimir_0.jpg);
+    transition: 0.6s;
+}
+
+.vladimir:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.volibear {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Volibear_0.jpg);
+    transition: 0.6s;
+}
+
+.volibear:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.warwick {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Warwick_0.jpg);
+    transition: 0.6s;
+}
+
+.warwick:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.xayah {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Xayah_0.jpg);
+    transition: 0.6s;
+}
+
+.xayah:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.xerath {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Xerath_0.jpg);
+    transition: 0.6s;
+}
+
+.xerath:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.xinzhao {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/XinZhao_0.jpg);
+    transition: 0.6s;
+}
+
+.xinzhao:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.yasuo {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Yasuo_0.jpg);
+    transition: 0.6s;
+}
+
+.yasuo:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.yorick {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Yorick_0.jpg);
+    transition: 0.6s;
+}
+
+.yorick:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.zac {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Zac_0.jpg);
+    transition: 0.6s;
+}
+
+.zac:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.zed {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Zed_0.jpg);
+    transition: 0.6s;
+}
+
+.zed:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.ziggs {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Ziggs_0.jpg);
+    transition: 0.6s;
+}
+
+.ziggs:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.zilean {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Zilean_0.jpg);
+    transition: 0.6s;
+}
+
+.zilean:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.zoe {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Zoe_0.jpg);
+    transition: 0.6s;
+}
+
+.zoe:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.zyra {
+    height: 255px;
+    width: 249px;
+    background-image: url(../img/pj/Zyra_0.jpg);
+    transition: 0.6s;
+}
+
+.zyra:hover{
+    box-shadow: inset 3px 6px 300px 41px rgba(0, 0, 0, 0.75);
+    cursor: pointer;

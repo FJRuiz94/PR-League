@@ -79,7 +79,7 @@ h2 {
     color: rgba(239, 210, 11, 1);
     font-family: 'Source Serif Pro', serif;
     position: absolute;
-    right: 120px;
+    right:320px;
     font-size: 30px;
 }
 
@@ -191,4 +191,33 @@ footer div {
     font-size:15px;
 }
 
+#twitter{
+   color: white;
+    transition:0.3s;
+}
+
+#twitter:hover{
+    color:darkturquoise;
+    transition:0.3s;
+}
+
+#facebook{
+    color:white;
+    transition:0.3s;
+}
+
+#facebook:hover{
+    color:mediumblue;
+    transition:0.3s;
+}
+
+#youtube{
+    color:white;
+    transition:0.3s;
+}
+
+#youtube:hover{
+    color:red;
+    transition:0.3s;
+}
 /* Fin Footer*/
